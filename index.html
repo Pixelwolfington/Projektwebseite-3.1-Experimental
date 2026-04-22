@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projektabend – Technik & Informatik</title>
+    <style>
+      :root {
+        --bg: #0f172a;
+        --card: #111827;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --accent: #38bdf8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, Arial, sans-serif;
+        background: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+        color: var(--text);
+      }
+
+      .container {
+        width: min(1000px, 92%);
+        margin: 0 auto;
+        padding: 2rem 0 3rem;
+      }
+
+      header {
+        margin-bottom: 2rem;
+      }
+
+      h1 {
+        font-size: clamp(1.7rem, 3.5vw, 2.5rem);
+        margin: 0 0 0.6rem;
+      }
+
+      .subtitle {
+        color: var(--muted);
+        max-width: 75ch;
+        line-height: 1.5;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 1rem;
+      }
+
+      .card {
+        background: rgba(17, 24, 39, 0.9);
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-radius: 14px;
+        padding: 1rem;
+      }
+
+      .card h2 {
+        margin: 0 0 0.5rem;
+        font-size: 1.1rem;
+        color: var(--accent);
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-bottom: 0.7rem;
+      }
+
+      .card p {
+        margin: 0;
+        line-height: 1.5;
+      }
+
+      footer {
+        margin-top: 2rem;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Projektabend – Technik &amp; Informatik Gruppe</h1>
+        <p class="subtitle">
+          Willkommen auf unserer Projektseite! Hier findest du alle Beiträge der
+          Technik- und Informatikgruppe – von 3D-Modellen über Bauprojekte bis
+          zu kreativen Ideen mit Minecraft und Holz.
+        </p>
+      </header>
+
+      <section class="grid" aria-label="Projektübersicht">
+        <article class="card">
+          <h2>Projekt 1: Eigenes Spiel &amp; 3D-Druck</h2>
+          <div class="meta">3 Schüler</div>
+          <p>
+            Die Gruppe entwickelt ein eigenes Spiel in einem Online-Programm auf
+            einer Webseite. Nach der Fertigstellung werden Elemente aus dem
+            Projekt als 3D-Modelle gedruckt.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Projekt 2: Solarsystem als 3D-Modell</h2>
+          <div class="meta">2 Schüler</div>
+          <p>
+            Mit dem gleichen Online-Programm wurde ein Solarsystem modelliert und
+            als 3D-gedrucktes Exemplar nachgebaut. Alle Planeten können einzeln
+            betrachtet werden.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Projekt 3: Flughafen Zürich aus Holz</h2>
+          <div class="meta">2 Schüler</div>
+          <p>
+            Die Gruppe hat den Flughafen Zürich im Maßstab 1:1 als Holzmodell
+            nachgebaut. Mit Farben, Leim und weiteren Materialien entstand ein
+            beeindruckendes Bauprojekt.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Projekt 4: Big Ben &amp; Türme aus Karton</h2>
+          <div class="meta">3 Teilnehmer</div>
+          <p>
+            Aus Karton, Toilettenrollen und Leim wurde Big Ben sowie weitere
+            Turm-Modelle gebaut. Das Projekt zeigt, wie viel man mit einfachen
+            Materialien erschaffen kann.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Projekt 5: Minecraft – Altstadt von Sitten</h2>
+          <div class="meta">Schülergruppe</div>
+          <p>
+            In Minecraft wurde die Altstadt von Sitten mit mittelalterlichen
+            Türmen detailreich nachgebaut und erweitert.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Projekt 6: Jack Daniel's Holzlampe</h2>
+          <div class="meta">2 Mitglieder</div>
+          <p>
+            Eine kreative Lampe aus Holz, Farbe und einer Jack Daniel's Flasche.
+            Das Endprodukt ist eine dekorative Leuchte mit besonderem Design.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Projekt 7: Kleiner Schaft aus Ölfass</h2>
+          <div class="meta">2 Mitglieder</div>
+          <p>
+            Aus einem ca. 100-Liter-Ölfass und Holz entstand ein kleiner Schaft
+            mit Innenausbau – ein praktisches und kreatives Upcycling-Projekt.
+          </p>
+        </article>
+      </section>
+
+      <footer>
+        Stand: Projektabend 2026 · Technik &amp; Informatik
+      </footer>
+    </main>
+  </body>
+</html>
